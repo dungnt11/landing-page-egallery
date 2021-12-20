@@ -1,4 +1,4 @@
-import scrollSpy from 'simple-scrollspy'
+import scrollSpy from 'simple-scrollspy';
 import $ from "jquery";
 
 window.onload = function () {
@@ -20,7 +20,7 @@ window.onload = function () {
 function calPosBorderCircle() {
     $('.menu-item').each(function (index,v) {
         let i = index + 1;
-        let _rotateDefault = -45;
+        let _rotateDefault = 0;
         const _rotatePlus = 25;
         console.log(v)
         if ($(v).hasClass('active')) {
